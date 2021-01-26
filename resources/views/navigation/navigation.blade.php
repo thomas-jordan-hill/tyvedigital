@@ -27,7 +27,7 @@
         <a class="nav-link" href="/contact">Contact</a>
       </li>
     </ul>
-   <div class="m-0 p-0 align-middle h5 navbar-text blue font-weight-normal px-4 py-2 rounded-lg">
+   <div class="d-none d-sm-block m-0 p-0 align-middle h5 navbar-text blue font-weight-normal px-4 py-2 rounded-lg">
      <a class="text-decoration-none blue text-reset" href="/services/websites#promo-websitepackage">
         <span class="d-inline-block mr-3 blue"><small>Take your business into 2021</small></span>
         <button class="d-inline-block btn btn-primary-light">Website package</button>

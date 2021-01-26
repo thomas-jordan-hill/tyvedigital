@@ -11,7 +11,8 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-12 position-relative p-0">
-                                    <img class="w-100 img-fluid" src="/storage/jan2021/test-homepage-jan2021-hero-1.png">
+                                    <img class="w-100 img-fluid d-none d-md-block" src="/storage/jan2021/test-homepage-jan2021-hero-1.png">
+                                    <img class="w-100 img-fluid d-block d-md-none rounded-lg" src="/storage/jan2021/test-homepage-jan2021-hero-small-1.jpg">
                                     <div class="col-12 position-absolute top0-left0-t-0-0">  
                                         <div class="row">
                                             <div class="col-12 ml-auto text-right p-5">
@@ -30,7 +31,7 @@
     </div>
 </div>
 
-<div class="container-fluid d-inline-block mb-5 p-0">
+<div class="container-fluid d-none d-md-inline-block mb-5 p-0">
     <div class="row m-0">
         <div class="col-12 position-relative p-0">
             <div style="height: 1px; background-color: #1C253C;" class="w-100"></div>
@@ -56,12 +57,12 @@
                                 <div class="row">
                                     <div class="col-12 position-relative">
                                         <div class="row">
-                                            <div class="col-7 d-flex align-items-stretch">
+                                            <div class="col-12 col-sm-7 d-flex align-items-stretch">
                                                 <div class="w-100 h-100 d-flex text-right align-items-stretch">
                                                     <h2 class="my-auto mr-5 ml-auto h3">Build your future online,<br> make it digital today.</h2>
                                                 </div> 
                                             </div>
-                                            <div class="col-4 mr-auto">
+                                            <div class="col-12 col-sm-4 offset-sm-1 mr-auto">
                                                 <ul class="list-group rounded-lg">
                                                     <a href="/services#websites" class="p small darkblue p smaller list-group-item list-group-item-action">Websites</a>
                                                     <a href="/services#seo" class="p small darkblue p smaller list-group-item list-group-item-action">Organic & Paid</a>
@@ -72,7 +73,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-6 position-absolute bottom0-left0-t-0-0">  
+                                    <div class="d-none d-md-block col-12 col-sm-6 position-absolute bottom0-left0-t-0-0">  
                                         <div class="row">
                                             <div class="col-6">
                                                  <img style="max-width: 325px;" class="ml-5" src="/storage/jan2021/test-homepage-jan2021-section1-1.png">
@@ -96,13 +97,13 @@
                 <div class="col-10 mx-auto rounded-lg background-white py-4">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12 col-sm-6">
                                 <div class="p-5 text-left">
                                     <h4 class="h4 darkblue butler font-weight-bold mb-3">What is tyvéDIGITAL?</h4>
                                     <p class="p small darkblue">We are a bunch of freelance designers, video editors, seo expert and copy writing merchants. Working with a brilliant mix of small, medium and large businesses we know what it takes to look after all types of clients. Contact us today to learn more about how we can help your business.</p>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-sm-6">
                                 <div class="p-5 text-left">
                                     <h4 class="h4 darkblue butler font-weight-bold mb-3">Where are you based?</h4>
                                     <p class="p small darkblue">We are based in Portsmouth, Hampshire, but don't let that stop you from talking to us. No matter where you are, far and wide, we can help you today.</p>
@@ -126,12 +127,12 @@
                             <div class="row">
                                 <div class="col-12 position-relative">
                                     <div class="row">
-                                        <div class="col-4 mt-auto">
+                                        <div class="d-none d-md-block col-12 col-sm-4 mt-auto">
                                             <div class="w-100 h-100 text-center">
                                                 <img style="max-width: 300px;" class="ml-5" src="/storage/jan2021/test-service-jan2021-box1.png">
                                             </div> 
                                         </div>
-                                        <div class="col-8 my-auto pb-5 px-5">
+                                        <div class="col-12 col-sm-8 my-auto pb-5 px-5">
                                             <!--<h3 class="h3 mb-3">Our featured service</h3>-->
                                             <div class="card text-center" style="background: transparent;">
                                                 <!--<div class="card-header">
@@ -140,7 +141,7 @@
                                                 <div class="card-body">
                                                     <h3 class="card-title h3 font-weight-bold mb-2">Got a business?</h3>
                                                     <p class="card-text h4 mb-3 mt-0">You need a website.</p>
-                                                    <ul class="list-group list-group-horizontal mb-3">
+                                                    <ul class="d-none d-md-block list-group list-group-horizontal mb-3">
                                                         <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">1 Website</li>
                                                         <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">12 month free domain</li>
                                                         <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">6 blogs</li>
@@ -151,6 +152,11 @@
                                                     <a href="#" class="ml-auto my-auto align-middle btn btn-primary">Learn more</a>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="d-block d-md-none col-12 col-sm-4 mt-2">
+                                            <div class="w-100 h-100 text-center">
+                                                <img style="max-width: 300px;" class="ml-5" src="/storage/jan2021/test-service-jan2021-box1.png">
+                                            </div> 
                                         </div>
                                     </div>
                                 </div>
@@ -163,7 +169,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid d-none d-md-block">
     <div class="row">
         <div class="col-10 mx-auto mt-5">
             <div class="row">

@@ -15,7 +15,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6 mt-4 mt-sm-0">
                     <div class="row">
                         <div class="col-12 my-auto">
                             <img class="footer-logo img-fluid" src="/storage/logo/tyvedigital-logo.svg">
