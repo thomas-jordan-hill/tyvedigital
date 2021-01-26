@@ -49,12 +49,12 @@
                         <div class="row">
                             <div class="col-12 position-relative">
                                 <div class="row">
-                                    <div class="col-4 mt-auto">
+                                    <div class="d-none d-md-block col-12 col-sm-4 mt-auto">
                                         <div class="w-100 h-100 text-center">
                                             <img style="max-width: 300px;" class="ml-5" src="/storage/jan2021/test-service-jan2021-box1.png">
                                         </div> 
                                     </div>
-                                    <div class="col-8 my-auto pb-5 px-5">
+                                    <div class="col-12 col-sm-8 my-auto pb-5 px-5">
                                         <!--<h3 class="h3 mb-3">Our featured service</h3>-->
                                         <div class="card text-center" style="background: transparent;">
                                             <!--<div class="card-header">
@@ -63,7 +63,7 @@
                                             <div class="card-body">
                                                 <h3 class="card-title h3 font-weight-bold mb-2">Got a business?</h3>
                                                 <p class="card-text h4 mb-3 mt-0">You need a website.</p>
-                                                <ul class="list-group list-group-horizontal mb-3">
+                                                <ul class="d-none d-md-flex list-group list-group-horizontal mb-3">
                                                     <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">1 Website</li>
                                                     <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">12 month free domain</li>
                                                     <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">6 blogs</li>
@@ -74,6 +74,11 @@
                                                 <a href="#" class="ml-auto my-auto align-middle btn btn-primary">Learn more</a>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="d-block d-md-none col-12 col-sm-4 mt-2">
+                                        <div class="w-100 h-100 text-center">
+                                            <img style="max-width: 300px;" class="ml-5" src="/storage/jan2021/test-service-jan2021-box1.png">
+                                        </div> 
                                     </div>
                                 </div>
                             </div>

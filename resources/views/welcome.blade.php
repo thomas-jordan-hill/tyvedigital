@@ -141,7 +141,7 @@
                                                 <div class="card-body">
                                                     <h3 class="card-title h3 font-weight-bold mb-2">Got a business?</h3>
                                                     <p class="card-text h4 mb-3 mt-0">You need a website.</p>
-                                                    <ul class="d-none d-md-block list-group list-group-horizontal mb-3">
+                                                    <ul class="d-none d-md-flex list-group list-group-horizontal mb-3">
                                                         <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">1 Website</li>
                                                         <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">12 month free domain</li>
                                                         <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">6 blogs</li>
