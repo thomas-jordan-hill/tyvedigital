@@ -132,7 +132,10 @@ body {
     color: $darkblue!important;
 }
 .lightblue {
-    color: lightblue;
+    color: lightblue!important;
+}
+.blue {
+    color: $blue!important;
 }
 .white {
     color: white!important;
@@ -164,6 +167,25 @@ body {
 }
 
 // Button
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #1C253C;
@@ -172,7 +194,7 @@ body {
 
 .btn-primary:hover {
     color: #1C253C;
-    background-color: #FFFFFF;
+    background-color: transparent;
     border-color: #1C253C;
 }
 
@@ -202,6 +224,47 @@ body {
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0);
+}
+
+.btn-primary-light {
+    color: white;
+    background-color: $blue;
+    border-color: $blue;
+}
+
+.btn-primary-light:hover {
+    color: $blue;
+    background-color: transparent;
+    border-color: $blue;
+}
+
+.btn-primary-light:focus,
+.btn-primary-light.focus {
+    color: white;
+    background-color: $blue;
+    border-color: $blue;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0);
+}
+
+.btn-primary-light.disabled,
+.btn-primary-light:disabled {
+    color: white;
+    background-color: $blue;
+    border-color: $blue;
+}
+
+.btn-primary-light:not(:disabled):not(.disabled):active,
+.btn-primary-light:not(:disabled):not(.disabled).active,
+.show>.btn-primary-light.dropdown-toggle {
+    color: white;
+    background-color: $blue;
+    border-color: $blue;
+}
+
+.btn-primary-light:not(:disabled):not(.disabled):active:focus,
+.btn-primary-light:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary-light.dropdown-toggle:focus {
     box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0);
 }
 
@@ -308,7 +371,7 @@ body {
 }
 
 // Card
-.card {
+.card.card-shadow {
     border: 0px;
     box-shadow: 0 0 25px rgb(205, 205, 205);
 }
@@ -338,9 +401,9 @@ body {
 }
 .g-background-blue-2 {
     background: rgb(205, 217, 250);
-    background: -moz-linear-gradient(90deg, rgba(205, 217, 250, 1) 16%, rgba(186, 203, 249, 1) 38%, rgba(186, 203, 249, 1) 51%, rgba(108, 147, 254, 1) 97%);
-    background: -webkit-linear-gradient(90deg, rgba(205, 217, 250, 1) 16%, rgba(186, 203, 249, 1) 38%, rgba(186, 203, 249, 1) 51%, rgba(108, 147, 254, 1) 97%);
-    background: linear-gradient(90deg, rgba(205, 217, 250, 1) 16%, rgba(186, 203, 249, 1) 38%, rgba(186, 203, 249, 1) 51%, rgba(108, 147, 254, 1) 97%);
+    background: -moz-linear-gradient(90deg, rgba(205, 217, 250, 1) 16%, rgba(186, 203, 249, 1) 38%, rgba(186, 203, 249, 1) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(205, 217, 250, 1) 16%, rgba(186, 203, 249, 1) 38%, rgba(186, 203, 249, 1) 90%);
+    background: linear-gradient(90deg, rgba(205, 217, 250, 1) 16%, rgba(186, 203, 249, 1) 38%, rgba(186, 203, 249, 1) 90%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdd9fa", endColorstr="#6c93fe", GradientType=1);
 }
 
@@ -352,12 +415,29 @@ body {
     border: 1px solid $lightblue;
 }
 
-//Content - Recommended
-
+// Content - Recommended
 .recommended {
-    border: 3px solid $paleblue;
+    border: 3px solid $paleblue!important;
+}
+.not-recommended {
+    border: 3px solid transparent!important;
 }
 
-.not-recommended {
-    border: 3px solid transparent;
+// Nav Pills
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: $blue;
+}
+
+// Horizontal List-Group
+
+.list-group-item.horizontal-featured {
+    position: relative;
+    display: block;
+    padding: 0.9rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    font-size: 12px;
+    line-height: 1;
 }

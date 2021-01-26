@@ -7,8 +7,7 @@
                         <div class="col-12">
                             <ul class="m-0 p-0 list-unstyled">
                                 <li><a href="/enquiries"><p class="my-2 p-0">Press &amp; media enquiries</p></a></li>
-                                <li><a href="/donate#we-need-your-help"><p class="my-2 p-0">Our donation plan</p></a></li>
-                                <li><p class="my-2 p-0">Business reporting</p></li>
+                                <li><a target="_blank" href="https://www.tyvecare.com"><p class="my-2 p-0">Supporting Mental Health</p></a></li>
                                 <li><a href="/privacy-policy"><p class="my-2 p-0">Privacy policy</p></a></li>
                                 <li><p class="my-2 p-0">Cookie policy</p></li>
                                 <li><p class="my-2 p-0">Terms &amp; conditions</p></li>

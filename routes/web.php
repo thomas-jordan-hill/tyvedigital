@@ -18,6 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get('/services', 'App\Http\Controllers\ServiceController@index');
+Route::get('/services/websites', 'App\Http\Controllers\ServiceController@websites');
+Route::get('/services/designer', 'App\Http\Controllers\ServiceController@designer');
+Route::get('/contact', 'App\Http\Controllers\ServiceController@contact');
+
 
 
 Route::get('/dashboard', function () {

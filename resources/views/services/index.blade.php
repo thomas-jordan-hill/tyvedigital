@@ -2,33 +2,12 @@
 
 @section('content')
 
-    @guest
-    @else
-    <div class="container container-global">
-        <div class="row">
-            <div class="col-12">
-                <div class="background-lightgrey radius-15 p-4 mb-3 mb-md-4">
-                    <div class="row">
-                        <div class="col-12 text-right">
-                            <a href='/blog/create'> 
-                                <div class="d-inline-block">
-                                    <button class='btn btn-primary ml-auto'>Create a new blog</button>
-                                </div>    
-                            </a>
-                        </div>
-                    </div>
-                </div>    
-            </div>    
-        </div>
-    </div>
-    @endguest
-
-    <!-- Section 1 -->
+    <!-- Services -->
     <div class="container container-global" id="frequently-asked-questions">
         <div class="row">
             <div class="col-12 mb-4">
                 <div class="row">
-                    <div class="col-12 mb-2 mb-sm-4 mt-3 mt-sm-4">
+                    <div class="col-12 mb-2 mb-sm-0 mt-3 mt-sm-4">
                         <div class="d-flex my-auto">
                             <h2 class="mb-0 mr-4 my-auto font-weight-bold" style="white-space: nowrap;">Services</h2>
                         </div>
@@ -38,132 +17,263 @@
         </div>
     </div>
     <!-- End -->
-    <!-- Section 2 -->
-    <div class="container container-global" id="frequently-asked-questions">
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="w-100 g-background-blue-2 rounded-lg pt-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 position-relative">
+                                <div class="row">
+                                    <div class="col-4 mt-auto">
+                                        <div class="w-100 h-100 text-center">
+                                            <img style="max-width: 300px;" class="ml-5" src="/storage/jan2021/test-service-jan2021-box1.png">
+                                        </div> 
+                                    </div>
+                                    <div class="col-8 my-auto pb-5 px-5">
+                                        <!--<h3 class="h3 mb-3">Our featured service</h3>-->
+                                        <div class="card text-center" style="background: transparent;">
+                                            <!--<div class="card-header">
+                                                New year, new Website
+                                            </div>-->
+                                            <div class="card-body">
+                                                <h3 class="card-title h3 font-weight-bold mb-2">Got a business?</h3>
+                                                <p class="card-text h4 mb-3 mt-0">You need a website.</p>
+                                                <ul class="list-group list-group-horizontal mb-3">
+                                                    <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">1 Website</li>
+                                                    <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">12 month free domain</li>
+                                                    <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">6 blogs</li>
+                                                    <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">5 pages</li>
+                                                    <li class="flex-fill list-group-item horizontal-featured" style="background: transparent;">Google MyBusiness</li>
+                                                </ul>
+                                                <h3 class="card-title h3 font-weight-normal mb-3">£300</h3>
+                                                <a href="#" class="ml-auto my-auto align-middle btn btn-primary">Learn more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <!-- Services - Nav -->
+    <div class="container mt-4" id="frequently-asked-questions">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <nav class="nav nav-pills nav-fill">
+                    <li class="nav-item pr-2">
+                        <a class="nav-link active p smaller" href="#websites">Websites</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active p smaller" href="#organic-paid-seo">Organic & Paid SEO</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active p smaller" href="#growth-marketing">Growth Marketing</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active p smaller" href="#social-media-content">Social Media Content</a>
+                    </li>
+                    <li class="nav-item pl-2">
+                        <a class="nav-link active p smaller" href="#digital-design-assets">Digital Design Assets</a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+    <!-- Websites -->
+    <div class="container container-global" id="websites">
         <div class="row">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-12 col-sm-9 mb-2 mb-sm-4 mt-2 mt-sm-3">
+                    <div class="col-12 mb-2 mb-sm-4 mt-2 mt-sm-3">
                         <div class="mb-0">
-                            <h3 class="alt-h3 mb-2" style="font-weight: normal;">Websites</h3>
-                            <p class="alt-h3 mb-0" style="font-weight: normal;">We offer three packages to make it easy for you to carry on running your business, while ensuring we build the right website for you and your brand.</p>
+                            <h3 class="h3 mb-2 font-weight-bold">Websites</h3>
+                            <p class="p small mb-0" style="font-weight: normal;">We cater for any website new, old or one that isn't quite working for you. We have the tools to get you back to reeping the benefits of digital.</p>
                         </div>
                     </div>
                     <div class="col-12 mb-4">
                         <div class="row">
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-2 mt-sm-0 mt-lg-0 text-left">
-                                <div class="card radius-15 not-recommended p-2">
-                                    <div class="card-body p-4">
-                                        <p class="m-0 p-0">Website</p>
-                                        <h3 class="m-0 p-0">Simple</h3>
-                                        <img class="card-img-top p-4" src="/storage/jan2021/test-homepage-jan2021-section2-1.png" alt="Card image cap">
-                                        <h5 class="card-title">What's included</h5>
-                                        <ul class="list-unstyled">
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Designed & built Website</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Mobile Friendly</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Google MyBusiness</p>
-                                            </li>
-                                        </ul>
-                                        <div class="d-flex mt-3">
-                                            <h3 class="my-auto line-height-1 d-inline-block align-middle m-0">£250<!--<span class="p smaller d-block">then £20 a month<sup>*</sup></span>--></h3>
-                                            <a href="#" class="ml-auto my-auto align-middle btn btn-primary">Buy now</a>
-                                        </div>    
-                                        <!--<p class="mt-2 text-right p smaller"><small><sup>*</sup>for a minimum of 12 months</small></p>-->
+                            <div class="col-12 mt-2 mt-sm-0 mt-lg-0 text-left">
+                                <div class="card card-shadow background-pale radius-15 not-recommended p-2">
+                                    <div class="card-body p-4 p-sm-5">
+                                        <div class="row">
+                                            <div class="col-6 my-auto">
+                                                <h3 class="h3 card-title">Get yourself online</h3>
+                                                <ul class="list-group rounded-lg">
+                                                    <a href="/services/websites#newwebsites" class="p darkblue list-group-item list-group-item-action">New websites</a>
+                                                    <a href="/services/websites#updatewebsite" class="p darkblue list-group-item list-group-item-action">Update the look of my website</a>
+                                                    <a href="/services/websites#improveseo" class="p darkblue list-group-item list-group-item-action">Improve my SEO</a>
+                                                    <a href="/services/websites#websiteleads" class="p darkblue list-group-item list-group-item-action">I want leads from my website</a>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="card-img-top p-5 img-fluid" src="/storage/jan2021/test-homepage-jan2021-section2-1.png" alt="Card image cap">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-2 mt-sm-0 mt-lg-0 text-left">
-                                <div class="card radius-15 p-2 recommended position-relative">
-                                    <div class="card-body p-4">
-                                        <p class="m-0 p-0">Website</p>
-                                        <h3 class="m-0 p-0">Simple +</h3>
-                                        <img class="card-img-top p-4" src="/storage/jan2021/test-homepage-jan2021-section2-1.png" alt="Card image cap">
-                                        <h5 class="card-title">What's included</h5>
-                                        <ul class="list-unstyled">
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Designed & built Website</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Mobile Friendly</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Google MyBusiness & Tracking</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">6 Blogs</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">12 Social media posts</p>
-                                            </li>
-                                        </ul>
-                                        <div class="d-flex mt-3">
-                                            <h3 class="my-auto line-height-1 d-inline-block align-middle m-0">£300<span class="p smaller d-block">then £20 a month<sup>*</sup></span></h3>
-                                            <a href="#" class="ml-auto my-auto align-middle btn btn-primary">Buy now</a>
-                                        </div>    
-                                        <p class="mt-2 text-right p smaller"><small><sup>*</sup>for a minimum of 12 months</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+    <!-- Organic & Paid SEO -->
+    <div class="container container-global" id="organic-paid-seo">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 mb-2 mb-sm-4 mt-2 mt-sm-3">
+                        <div class="mb-0">
+                            <h3 class="h3 mb-2 font-weight-bold">Organic & Paid SEO</h3>
+                            <p class="p small mb-0" style="font-weight: normal;">Arguably the most important part of any website is it's presence on search engines. We offer experienced in good SEO practices.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="row">
+                            <div class="col-12 mt-2 mt-sm-0 mt-lg-0 text-left">
+                                <div class="card card-shadow background-pale radius-15 not-recommended p-2">
+                                    <div class="card-body p-4 p-sm-5">
+                                        <div class="row">
+                                            <div class="col-6 my-auto">
+                                                <h3 class="h3 card-title">Get found online today</h3>
+                                                <ul class="list-group rounded-lg">
+                                                    <a href="/services/websites#newwebsites" class="p darkblue list-group-item list-group-item-action">New websites</a>
+                                                    <a href="/services/websites#updatewebsite" class="p darkblue list-group-item list-group-item-action">Update the look of my website</a>
+                                                    <a href="/services/websites#improveseo" class="p darkblue list-group-item list-group-item-action">Improve my SEO</a>
+                                                    <a href="/services/websites#websiteleads" class="p darkblue list-group-item list-group-item-action">I want leads from my website</a>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="card-img-top p-5 img-fluid" src="/storage/jan2021/test-homepage-jan2021-section2-1.png" alt="Card image cap">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <span class="rounded-lg py-2 px-3 d-block text-center m-auto position-absolute" style="top: 0px;left: 50%;transform: translate(-50%, -50%);line-height: 1;white-space: nowrap;background: #c3d2fa;">Recommended for new businesses</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-2 mt-sm-3 mt-lg-0 text-left">
-                                <div class="card radius-15 not-recommended p-2">
-                                    <div class="card-body p-4">
-                                        <p class="m-0 p-0">Website</p>
-                                        <h3 class="m-0 p-0">Pro</h3>
-                                        <img class="card-img-top p-4" src="/storage/jan2021/test-homepage-jan2021-section2-1.png" alt="Card image cap">
-                                        <h5 class="card-title">What's included</h5>
-                                        <ul class="list-unstyled">
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Designed & built Website</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">iPhone & Android optimised</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Google MyBusiness & Tracking</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">12 Blog posts</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">26 Social media posts</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">SEO Optimised</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Monthly SEO checks</p>
-                                            </li>
-                                            <li class="px-0">
-                                                <img class="align-middle my-auto mr-2" style="width: 17px;" src="/storage/svgs/tick.svg" alt="green tick">
-                                                <p class="p d-inline-block small align-middle my-auto">Site speed checks</p>
-                                            </li>
-                                        </ul>
-                                        <div class="d-flex mt-3">
-                                            <h3 class="my-auto line-height-1 d-inline-block align-middle m-0">£400<span class="p smaller d-block">then £30 a month<sup>*</sup></span></h3>
-                                            <a href="#" class="ml-auto my-auto align-middle btn btn-primary">Buy now</a>
-                                        </div>    
-                                        <p class="mt-2 text-right p smaller"><small><sup>*</sup>for a minimum of 24 months</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+    <!-- Growth Marketing -->
+    <div class="container container-global" id="growth-marketing">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 mb-2 mb-sm-4 mt-2 mt-sm-3">
+                        <div class="mb-0">
+                            <h3 class="h3 mb-2 font-weight-bold">Growth Marketing</h3>
+                            <p class="p small mb-0" style="font-weight: normal;">Marketing is an important part of your businesses online activities. We offer a marketing service to plan and action out campaigns across the year for your bsuiness.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="row">
+                            <div class="col-12 mt-2 mt-sm-0 mt-lg-0 text-left">
+                                <div class="card card-shadow background-pale radius-15 not-recommended p-2">
+                                    <div class="card-body p-4 p-sm-5">
+                                        <div class="row">
+                                            <div class="col-6 my-auto">
+                                                <h3 class="h3 card-title">Push your services to the peak</h3>
+                                                <ul class="list-group rounded-lg">
+                                                    <a href="/services/websites#newwebsites" class="p darkblue list-group-item list-group-item-action">New websites</a>
+                                                    <a href="/services/websites#updatewebsite" class="p darkblue list-group-item list-group-item-action">Update the look of my website</a>
+                                                    <a href="/services/websites#improveseo" class="p darkblue list-group-item list-group-item-action">Improve my SEO</a>
+                                                    <a href="/services/websites#websiteleads" class="p darkblue list-group-item list-group-item-action">I want leads from my website</a>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="card-img-top p-5 img-fluid" src="/storage/jan2021/test-homepage-jan2021-section2-1.png" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+    <!-- Social Media Content -->
+    <div class="container container-global" id="social-media-content">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 mb-2 mb-sm-4 mt-2 mt-sm-3">
+                        <div class="mb-0">
+                            <h3 class="h3 mb-2 font-weight-bold">Social Media Content</h3>
+                            <p class="p small mb-0" style="font-weight: normal;">Keeping up your social media profiles is hard, espcially when you need to think of new content. We will create and plan a Social Media content plan to help your company keep up with the latest trends.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="row">
+                            <div class="col-12 mt-2 mt-sm-0 mt-lg-0 text-left">
+                                <div class="card card-shadow background-pale radius-15 not-recommended p-2">
+                                    <div class="card-body p-4 p-sm-5">
+                                        <div class="row">
+                                            <div class="col-6 my-auto">
+                                                <h3 class="h3 card-title">Increase your engagement</h3>
+                                                <ul class="list-group rounded-lg">
+                                                    <a href="/services/websites#newwebsites" class="p darkblue list-group-item list-group-item-action">New websites</a>
+                                                    <a href="/services/websites#updatewebsite" class="p darkblue list-group-item list-group-item-action">Update the look of my website</a>
+                                                    <a href="/services/websites#improveseo" class="p darkblue list-group-item list-group-item-action">Improve my SEO</a>
+                                                    <a href="/services/websites#websiteleads" class="p darkblue list-group-item list-group-item-action">I want leads from my website</a>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="card-img-top p-5 img-fluid" src="/storage/jan2021/test-homepage-jan2021-section2-1.png" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+    <!-- Digital Design Assets -->
+    <div class="container container-global" id="digital-design-assets">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 mb-2 mb-sm-4 mt-2 mt-sm-3">
+                        <div class="mb-0">
+                            <h3 class="h3 mb-2 font-weight-bold">Digital Design Assets</h3>
+                            <p class="p small mb-0" style="font-weight: normal;">We offer design services for your business. Ranging from PDF Leaflets, sprusing up a proposal or giving your information a consistent look and feel.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="row">
+                            <div class="col-12 mt-2 mt-sm-0 mt-lg-0 text-left">
+                                <div class="card card-shadow background-pale radius-15 not-recommended p-2">
+                                    <div class="card-body p-4 p-sm-5">
+                                        <div class="row">
+                                            <div class="col-6 my-auto">
+                                                <h3 class="h3 card-title">Custom designs for your business</h3>
+                                                <ul class="list-group rounded-lg">
+                                                    <a href="/services/websites#newwebsites" class="p darkblue list-group-item list-group-item-action">New websites</a>
+                                                    <a href="/services/websites#updatewebsite" class="p darkblue list-group-item list-group-item-action">Update the look of my website</a>
+                                                    <a href="/services/websites#improveseo" class="p darkblue list-group-item list-group-item-action">Improve my SEO</a>
+                                                    <a href="/services/websites#websiteleads" class="p darkblue list-group-item list-group-item-action">I want leads from my website</a>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="card-img-top p-5 img-fluid" src="/storage/jan2021/test-homepage-jan2021-section2-1.png" alt="Card image cap">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
