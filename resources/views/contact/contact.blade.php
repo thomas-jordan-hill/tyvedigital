@@ -64,12 +64,7 @@
 
                         <div class="col-12 mt-0 mt-md-4">
                             <div class="row">
-                                <div class="d-none d-md-block col-md-3">
-                                    <div class="card card-clear h-100 rounded-lg" style="border: 0px solid transparent;">
-                                        <img src="/storage/images/transparent-roadmap-contactus.png" class="card-img-top" alt="...">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-9">
+                                <div class="col-12">
                                     <h3 class="mb-0 colour3 fw-bold mb-0 mb-md-3">What to expect when you first contact us</h3>
                                     <ol class="colour3 p mt-2 mb-4">
                                         <li>Hello!</li>

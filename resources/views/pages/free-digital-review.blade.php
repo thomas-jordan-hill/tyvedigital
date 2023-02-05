@@ -34,8 +34,8 @@
                                 <div class="col-12 col-sm-6 d-flex p-0">
                                     <div class="mt-auto text-center">
                                         <div class="card-body">
-                                            <img style="max-width: 750px;" class="w-100 px-4 pb-0 pt-4" src="/storage/images/tyvedigital-freedigitalreview-signupform-title.png">
-                                            <img style="max-width: 500px;" class="d-none d-sm-block w-100 px-4 py-0" src="/storage/images/tyvedigital-freedigitalreview-homepage-1.png">
+                                            <img style="max-width: 750px;" class="w-100 px-4 pb-0 pt-4 mx-auto" src="/storage/images/tyvedigital-freedigitalreview-signupform-title.png">
+                                            <img style="max-width: 500px;" class="d-none d-sm-block w-100 px-4 py-0 mx-auto" src="/storage/images/tyvedigital-freedigitalreview-homepage-1.png">
                                         </div>
                                     </div>
                                 </div>    
