@@ -18,10 +18,20 @@ Route::get('/', function () {
 });
 
 Route::get('/services', 'App\Http\Controllers\ServiceController@index');
+Route::get('/what-we-do', 'App\Http\Controllers\ServiceController@whatwedo');
+Route::get('/about-us', 'App\Http\Controllers\ServiceController@aboutus');
+Route::get('/free-digital-review', 'App\Http\Controllers\ServiceController@freedigitalreview');
 Route::get('/services/websites', 'App\Http\Controllers\ServiceController@websites');
-Route::get('/services/designer', 'App\Http\Controllers\ServiceController@designer');
+Route::get('/services/finding-new-leads', 'App\Http\Controllers\ServiceController@findingnewleads');
+Route::get('/services/print-design', 'App\Http\Controllers\ServiceController@printdesign');
+Route::get('/services/email-engagement', 'App\Http\Controllers\ServiceController@emailengagement');
+Route::get('/services/data-capture', 'App\Http\Controllers\ServiceController@capturingdata');
+Route::get('/services/growth-seo', 'App\Http\Controllers\ServiceController@growthseo');
+Route::get('/learn-digital', 'App\Http\Controllers\ServiceController@learndigital');
 Route::get('/contact', 'App\Http\Controllers\ServiceController@contact');
-
+Route::get('/learn-digital-for-free', 'App\Http\Controllers\CharityWorkController@index');
+Route::get('/privacy-policy', 'App\Http\Controllers\ServiceController@privacypolicy');
+Route::get('/cookie-policy', 'App\Http\Controllers\ServiceController@cookiepolicy');
 
 
 Route::get('/dashboard', function () {

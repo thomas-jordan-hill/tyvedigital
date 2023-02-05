@@ -34,12 +34,12 @@
                     </div>
                 </div>
 
-                @include('contact.contact-banner')
-
             </div>
         </div>
     </div>
 </div>
+
+@include('contact.contact-banner')
 
 <!-- End -->
 

@@ -25,8 +25,8 @@
                 </div>
                 <!-- End -->
                 
-                <!-- Services - Step by Step -->
-                <div class="col-11 mt-0 mt-4 mx-auto">
+                <!-- Services - Nav -->
+                <div class="col-11 mt-0 mt-4 mx-auto" id="frequently-asked-questions">
                     <div class="row">
 
                         @include('services.inc.services-stepbystep')
@@ -34,12 +34,12 @@
                     </div>
                 </div>
 
-                @include('contact.contact-banner')
-
             </div>
         </div>
     </div>
 </div>
+
+@include('contact.contact-banner')
 
 <!-- End -->
 
