@@ -28,7 +28,8 @@ Route::get('/services/email-engagement', 'App\Http\Controllers\ServiceController
 Route::get('/services/data-capture', 'App\Http\Controllers\ServiceController@capturingdata');
 Route::get('/services/growth-seo', 'App\Http\Controllers\ServiceController@growthseo');
 Route::get('/learn-digital', 'App\Http\Controllers\ServiceController@learndigital');
-Route::get('/contact', 'App\Http\Controllers\ServiceController@contact');
+Route::get('/contact', 'App\Http\Controllers\ContactController@index');
+Route::post('/contact', 'App\Http\Controllers\ContactController@store');
 Route::get('/learn-digital-for-free', 'App\Http\Controllers\CharityWorkController@index');
 Route::get('/privacy-policy', 'App\Http\Controllers\ServiceController@privacypolicy');
 Route::get('/cookie-policy', 'App\Http\Controllers\ServiceController@cookiepolicy');
