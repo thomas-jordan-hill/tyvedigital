@@ -78,14 +78,7 @@ class ServiceController extends Controller
         ]);
     }
 
-    public function contact (){
-
-        $pagetitle = 'Contact';
-
-        return view('contact.contact', [
-            'pagetitle' => $pagetitle,
-        ]);
-    }
+    
 
     public function whatwedo (){
 

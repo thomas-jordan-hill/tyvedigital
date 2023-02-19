@@ -2,6 +2,12 @@
 
 @section('content')
 
+<style>
+    .calendly-badge-widget {
+        display: none;
+    }
+</style>
+
 
 <div class="container-fluid background-colour1" id="our-customers">
     <div class="row">
@@ -80,7 +86,7 @@
                                                     </div>
                                                     
                                                     <div class="col-12">
-                                                    <form method="POST" action="{{ action('App\Http\Controllers\ContactController@index') }}">
+                                                    <form id="contact-form" method="POST" action="{{ action('App\Http\Controllers\ContactController@index') }}">
                                                     @csrf
 
                                                         <div class="mb-3">
@@ -103,9 +109,8 @@
                                                             <label for="message" class="form-label p">Message</label>
                                                             <textarea type="text" id="message" name="message" class="form-control p {{ $errors->has('message') ? 'invalid' : '' }}" placeholder="Been doing emails in Mail Chimp for a year now, but things have gotten stale..." rows="3">{{ old('message')}}</textarea>
                                                         </div>
-                                                        <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
                                                         <div class="mb-3">
-                                                            <button type="submit" value="Submit" class="btn btn-secondary mt-4">Submit</button>
+                                                            <button class="g-recaptcha btn btn-secondary mt-4" data-sitekey="reCAPTCHA_site_key" data-callback="onSubmit" data-action="submit" type="submit" value="Submit">Submit</button>
                                                         </div>
 
                                                     </form>
@@ -125,5 +130,12 @@
         </div>
     </div>
 </div>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+   function onSubmit(token) {
+     document.getElementById("contact-form").submit();
+   }
+ </script>
 
 @endsection
