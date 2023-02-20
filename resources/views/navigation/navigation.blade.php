@@ -21,10 +21,12 @@
         <a style="color: #8288d5!important;" class="nav-link" href="/learn-digital/">Book a 30 minute digital consultation</a>
       </li>-->
     </ul>
-   <div class="d-none d-sm-block m-0 p-0 align-middle colour3 h5 navbar-text font-weight-normal px-4 py-2 border-colour3 rounded-lg">
-     <a class="text-decoration-none colour3 text-reset" href="/free-digital-review/">
-        <p class="p-0 m-0 colour3 p">Get your <b>FREE</b> Digital Review today!</p>
-     </a>   
-   </div>
+    <div class="d-none d-sm-block m-0 p-0 align-middle colour3 h5 navbar-text font-weight-normal border-colour3 rounded-lg">
+      <a class="text-decoration-none colour3 text-reset" href="/free-digital-review/">
+        <div class="px-4 py-2">
+          <p class="p-0 m-0 colour3 p">Get your <b>FREE</b> Digital Review today!</p>
+        </div>   
+      </a>   
+    </div>
   </div>
 </nav>
