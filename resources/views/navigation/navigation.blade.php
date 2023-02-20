@@ -1,4 +1,5 @@
-<nav class="w-100 navbar navbar-expand-lg navbar-light mt-4 p-0">
+<nav class="w-100 navbar navbar-expand-lg navbar-light mt-0 p-0">
+  <div class="w-100 p-0 mt-2 mb-1 text-end"><p class="p card-title"><small><a class="colour3 text-decoration-none" href="tel:+447585221672">Get digital: 07585221672</a></small></p></div>
   <a style="min-width: 175px;" class="navbar-brand ms-0 me-4" href="/"><img class="logo-main w-100" src="/storage/logo/tyvedigital-logo.svg"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <!--<span class="navbar-toggler-icon"></span>-->Menu

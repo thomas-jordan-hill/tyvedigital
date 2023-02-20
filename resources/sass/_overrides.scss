@@ -752,6 +752,25 @@ body {
     z-index: 99999;
 }
 
+@media (max-width: 786px) {
+    .calendly-badge-widget {
+        position: fixed !important;
+        bottom: 10px !important;
+        z-index: 9998 !important;
+        width: calc(100% - 20px)!important;
+        margin-left: 10px!important;
+        right: unset !important;
+    }
+    .calendly-badge-content {
+        background: $colour1!important;
+        color: $colour3!important;
+        width: 100%!important;
+        display: inline-table!important;
+        padding: 20px!important;
+        border: 1px solid $colour3!important;
+    }
+}
+
 // Terms and Conditions
 
 .terms-and-conditions {
