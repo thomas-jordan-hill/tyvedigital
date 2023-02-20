@@ -33,7 +33,7 @@ class ContactController extends Controller{
         Mail::send( new ContactFormMessage() );
 
         // redirect to contact form with message
-        session()->flash('success', 'Message is sent! We will get back to you soon!');
+        session()->flash('success', 'Thank you for your message, we will get back to within 24 hours!');
  
         return redirect()->back();
  

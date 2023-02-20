@@ -48,10 +48,14 @@
                             <div class="col-12 mb-4 mb-md-5">
                                 <div class="row g-4">
                                     <div class="col-12 col-md-6">
-                                        <div class="card border-colour3 background-colourT h-100 rounded-lg">
-                                            <div class="card-body py-3 px-3 py-md-5 px-md-5 text-center">
-                                                <p class="p colour3 m-0">General Enquiries</p>
-                                                <p class="p card-title colour3 m-0"><b><a class="colour3" href="mailto:contact@tyvedigital.com">contact@tyvedigital.com</a></b></p>
+                                        <div class="card border-colour1 background-colourT h-100 rounded-lg">
+                                            <div class="card-body py-3 px-3 py-md-5 px-md-5 text-left">
+                                                <img style="max-width: 250px;" class="logo-main w-100 mb-4" src="/storage/logo/tyvedigital-logo-blue.svg">
+                                                <p class="h5 colour1 mb-5">Reach out to your customers by going truly digital.</p>
+                                                <hr>
+                                                <p class="h6 colour1 mt-5 mb-4">Send us a message using the form on our website, or by contacting us your the details below.</p>
+                                                <p class="h5 card-title colour1 mb-4"><b><a class="colour1 text-decoration-none" href="mailto:contact@tyvedigital.com">contact@tyvedigital.com</a></b></p>
+                                                <p class="h5 card-title colour1 m-0"><b><a class="colour1 text-decoration-none" href="tel:+447585221672">07585221672</a></b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -109,8 +113,9 @@
                                                             <label for="message" class="form-label p">Message</label>
                                                             <textarea type="text" id="message" name="message" class="form-control p {{ $errors->has('message') ? 'invalid' : '' }}" placeholder="Been doing emails in Mail Chimp for a year now, but things have gotten stale..." rows="3">{{ old('message')}}</textarea>
                                                         </div>
+                                                        <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
                                                         <div class="mb-3">
-                                                            <button class="g-recaptcha btn btn-secondary mt-4" data-sitekey="reCAPTCHA_site_key" data-callback="onSubmit" data-action="submit" type="submit" value="Submit">Submit</button>
+                                                            <button class="btn btn-secondary mt-4" type="submit" value="Submit">Submit</button>
                                                         </div>
 
                                                     </form>

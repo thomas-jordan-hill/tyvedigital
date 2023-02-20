@@ -38,8 +38,8 @@ class ContactFormMessage extends Mailable
             ->view('emails.contactform')
             ->with([    
                 'contactName' => $request->name,
-                'contactMobile' => $request->email,
-                'contactEmail' => $request->mobile,
+                'contactMobile' => $request->mobile,
+                'contactEmail' => $request->email,
                 'contactSubject' => $request->subject,
                 'contactMessage' => $request->message
             ]);
