@@ -6,6 +6,11 @@
     .calendly-badge-widget {
         display: none;
     }
+    @media (max-width: 786px) {
+        #navbar-contact {
+            display: none!important;
+        }
+    }
 </style>
 
 
@@ -21,9 +26,9 @@
                             <div class="row">
                                 <div class="col-12 text-left">
                                     <div class="m-auto">
-                                        <h2 class="mb-0 mr-4 my-auto colour3 fw-bold" style="white-space: nowrap;">{{ $pagetitle }}</h2>
-                                        <hr style="width: 200px; max-width: 200px; background-color: #D0DAFF!important;">
-                                        <h4 class="d-inline-block mb-0 mr-4 my-auto colour3">We'd love to hear from you!</h4>
+                                        <h2 class="mb-3 mb-md-4 mr-4 my-auto colour3 fw-bold" style="white-space: nowrap;">{{ $pagetitle }}</h2>
+                                        <hr style="width: 200px; max-width: 200px; background-color: #D0DAFF!important;" class="d-none d-md-block">
+                                        <h4 class="d-inline-block mb-0 mr-4 my-auto colour3 p">We'd love to hear from you!</h4>
                                     </div>
                                 </div>
                             </div>
@@ -50,10 +55,10 @@
                                     <div class="col-12 col-md-6">
                                         <div class="card border-colour1 background-colourT h-100 rounded-lg">
                                             <div class="card-body py-3 px-3 py-md-5 px-md-5 text-left">
-                                                <img style="max-width: 250px;" class="logo-main w-100 mb-4" src="/storage/logo/tyvedigital-logo-blue.svg">
-                                                <p class="h5 colour1 mb-5">Reach out to your customers by going truly digital.</p>
-                                                <hr>
-                                                <p class="h6 colour1 mt-5 mb-4">Send us a message using the form on our website, or by contacting us your the details below.</p>
+                                                <img style="max-width: 250px;" class="d-none d-md-block logo-main w-100 mb-4" src="/storage/logo/tyvedigital-logo-blue.svg">
+                                                <p class="h5 colour1 mb-5 d-none d-md-block">Reach out to your customers by going truly digital.</p>
+                                                <hr class="d-none d-md-block">
+                                                <p class="h6 colour1 mt-0 mt-md-5 mb-3 mb-md-4">Send us a message using the form on our website, or by contacting us your the details below.</p>
                                                 <p class="h5 card-title colour1 mb-4"><b><a class="colour1 text-decoration-none" href="mailto:contact@tyvedigital.com">contact@tyvedigital.com</a></b></p>
                                                 <p class="h5 card-title colour1 m-0"><b><a class="colour1 text-decoration-none" href="tel:+447585221672">07585221672</a></b></p>
                                             </div>
