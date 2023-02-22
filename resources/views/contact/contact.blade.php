@@ -28,7 +28,7 @@
                                     <div class="m-auto">
                                         <h2 class="mb-3 mb-md-4 mr-4 my-auto colour3 fw-bold" style="white-space: nowrap;">{{ $pagetitle }}</h2>
                                         <hr style="width: 200px; max-width: 200px; background-color: #D0DAFF!important;" class="d-none d-md-block">
-                                        <h4 class="d-inline-block mb-0 mr-4 my-auto colour3 p">We'd love to hear from you!</h4>
+                                        <h4 class="d-inline-block mb-0 mr-4 my-auto colour3 p¿>We'd love to hear from you!</h4>
                                     </div>
                                 </div>
                             </div>

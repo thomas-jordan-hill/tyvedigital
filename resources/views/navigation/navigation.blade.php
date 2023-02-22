@@ -5,7 +5,7 @@
     <!--<span class="navbar-toggler-icon"></span>-->Menu
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="my-0 me-auto p-0 align-middle navbar-nav navbar-1 mr-auto">
+    <ul class="my-0 me-auto p-0 align-middle navbar-nav navbar-1 mr-auto text-end">
       <li class="nav-item">
         <a class="nav-link" href="/what-we-do/">What We Do</a>
       </li>
