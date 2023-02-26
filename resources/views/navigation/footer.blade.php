@@ -82,7 +82,7 @@
 
   <div class="row">  
     <div class="col-12 py-4 my-4 border-top">
-      <img style="max-width: 200px;" class="footer-logo img-fluid mt-2 mt-sm-0 mb-4 mb-sm-0" src="/storage/logo/tyvedigital-logo-dark.svg">
+      <img style="max-width: 200px;" class="footer-logo img-fluid mt-2 mt-sm-0 mb-4 mb-md-2" src="/storage/logo/tyvedigital-logo-dark.svg">
       <p><small style="font-size: 66%;">© <?php echo date("Y"); ?> tyve DIGTITAL (tyvéDIGITAL). Company Number: 12653357. All rights reserved.</small></p>
       <!--<ul class="list-unstyled d-flex">
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>

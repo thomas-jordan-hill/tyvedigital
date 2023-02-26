@@ -25,7 +25,7 @@
     <div class="d-none d-sm-block m-0 p-0 align-middle colour3 h5 navbar-text font-weight-normal border-colour3 rounded-lg">
       <a class="text-decoration-none colour3 text-reset" href="/free-digital-review/">
         <div class="px-4 py-2">
-          <p class="p-0 m-0 colour3 p">Get your <b>FREE</b> Digital Review today!</p>
+          <p class="p-0 m-0 colour3 p nav-link">Get your <b>FREE</b> Digital Review today!</p>
         </div>   
       </a>   
     </div>
