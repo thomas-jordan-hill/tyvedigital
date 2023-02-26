@@ -11334,6 +11334,10 @@ body {
   font-size: 1.5rem !important;
 }
 
+.mobilecontact:hover {
+  color: #D0DAFF !important;
+}
+
 @media (max-width: 1400px) {
   .navbar-expand-lg .navbar-nav .nav-link, p.nav-link {
     font-size: 1.3rem !important;
