@@ -57,7 +57,7 @@
                                             <div class="card-body p-0 text-left">
                                                 <p class="h6 colour2 mt-0 mt-md-0 mb-3 mb-md-4">Send us a message using the form on our website, or by contacting us your the details below.</p>
                                                 <p class="h5 card-title colour2 mb-4"><b><a class="colour2 text-decoration-none" href="mailto:contact@tyvedigital.com">contact@tyvedigital.com</a></b></p>
-                                                <p class="h5 card-title colour2 mb-4"><b><a class="colour2 text-decoration-none" href="tel:+447585221672">07585221672</a></b></p>
+                                                <p class="h5 card-title colour2 mb-0"><b><a class="colour2 text-decoration-none" href="tel:+447585221672">07585221672</a></b></p>
                                             </div>
                                         </div>
                                     </div>
