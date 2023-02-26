@@ -11352,6 +11352,9 @@ body {
     padding-left: 1rem;
     font-size: 1.4rem !important;
   }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #303BD0 !important;
+  }
 }
 .navbar-toggler {
   color: #D0DAFF;
