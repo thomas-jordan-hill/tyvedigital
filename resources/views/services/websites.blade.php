@@ -36,7 +36,7 @@
                                 <h4 class="h4 colour3 mb-4"><small>We've worked for a range of clients from sole traders, to larger sized city businesses.</small></h4>
                                 <img class="w-100 img-fluid d-none d-md-block mt-0 mt-md-5 pb-0 pb-md-0" style="width: 100%!important;" src="/storage/images/transparent-website-example2-tyvedigital.png">
                                 <img class="w-100 img-fluid d-block d-md-none rounded-lg" src="/storage/images/transparent-website-example2-tyvedigital.png">
-                                <div class="d-none d-md-block ">
+                                <div class="d-none d-md-block mt-0 mt-md-3">
                                     <h4 class="card-title fw-bold colour3 mb-0">We'd love to help you digitalise customer journey.</h4>
                                     <h5 class="card-title colour3 mt-2 mb-4">Get in touch today.</h5>
                                     <a href="/contact/" class="ml-auto my-auto align-middle btn btn-primary">Contact Us</a>
@@ -63,7 +63,9 @@
                     </div>
                 </div>-->
 
+            <div class="d-block d-md-none">
                 @include('contact.contact-banner')
+            </div>
 
             </div>
         </div>
