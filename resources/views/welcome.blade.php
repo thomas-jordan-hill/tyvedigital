@@ -18,7 +18,7 @@
                                             <div class="col-12 text-center pt-3">
                                                 <span class="align-middle p d-inline-block colour3">Start today, with a <b>FREE</b> Digital Review of your website and social media</span>
                                                 <a class="ms-0 ms-md-3 mt-3 mt-md-0 btn btn-primary" href="/free-digital-review/">Claim my review</a><br>
-                                                <a class="d-block d-md-none ms-0 ms-md-3 mt-3 mt-md-0 colour3" href="#home-get-started">I need a website</a>
+                                                <a class="d-block d-md-none ms-0 ms-md-3 mt-3 mt-md-0 colour3" href="/services/websites/">I need a website</a>
                                             </div>
                                         </div>
                                     </div>
